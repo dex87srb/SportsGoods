@@ -10,10 +10,10 @@
     @if (ViewBag.EditId == null)
     {
         <form asp-action="AddCategory" method="post">
-            @Html.Partial("CategoryEditor", new SportsGoods.Models.Category())
+            @Html.Partial("CategoryEditor", new Category())
         </form>
     }
-    @foreach (SportsGoods.Models.Category c in Model)
+    @foreach (Category c in Model)
     {
         @if (c.Id == ViewBag.EditId)
         {

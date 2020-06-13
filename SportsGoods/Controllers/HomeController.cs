@@ -4,9 +4,9 @@ namespace SportsGoods.Controllers
 {
     public class HomeController : Controller
     {
-        private IRepository repository;
+        private readonly IRepository repository;
 
-        private ICategoryRepository catRepository;
+        private readonly ICategoryRepository catRepository;
         public HomeController(IRepository repo, ICategoryRepository catRepo)
         {
             repository = repo;

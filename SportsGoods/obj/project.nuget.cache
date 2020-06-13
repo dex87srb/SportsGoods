@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3AnKn9mfRl350dhuGlK5FXCyKRD9RMc4tkIcN+J56sPSWJ1CFNsH1FW0uv9tSPlj6QIbsIXVKfe/ZIF7aTePUg==",
+  "dgSpecHash": "UNAVysSW5XGXbJJSkUX96PMbeve4iaFbq3DoxiV065V/HL2gBFvFpYZRM7l0Ge395GLYC/A+TCXqtWsYp10zBg==",
   "success": true,
-  "projectFilePath": "E:\\dokumenti\\Web programiranje kursevi i ostalo\\C#\\projekti\\SportsGoods\\SportsGoods\\SportsGoods\\SportsGoods.csproj",
+  "projectFilePath": "E:\\dokumenti\\Web programiranje kursevi i ostalo\\C#\\Projekti u toku\\SportsGoods\\SportsGoods\\SportsGoods\\SportsGoods.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Danijel\\.nuget\\packages\\libuv\\1.10.0\\libuv.1.10.0.nupkg.sha512",
     "C:\\Users\\Danijel\\.nuget\\packages\\microsoft.applicationinsights\\2.4.0\\microsoft.applicationinsights.2.4.0.nupkg.sha512",
