@@ -1,0 +1,15 @@
+E:\dokumenti\Web programiranje kursevi i ostalo\C#\Projekti u toku\SportsGoods\SportsGoods\SportsGoods\bin\Debug\netcoreapp2.0\appsettings.json
+E:\dokumenti\Web programiranje kursevi i ostalo\C#\Projekti u toku\SportsGoods\SportsGoods\SportsGoods\bin\Debug\netcoreapp2.0\bower.json
+E:\dokumenti\Web programiranje kursevi i ostalo\C#\Projekti u toku\SportsGoods\SportsGoods\SportsGoods\bin\Debug\netcoreapp2.0\Properties\launchSettings.json
+E:\dokumenti\Web programiranje kursevi i ostalo\C#\Projekti u toku\SportsGoods\SportsGoods\SportsGoods\bin\Debug\netcoreapp2.0\SportsGoods.deps.json
+E:\dokumenti\Web programiranje kursevi i ostalo\C#\Projekti u toku\SportsGoods\SportsGoods\SportsGoods\bin\Debug\netcoreapp2.0\SportsGoods.runtimeconfig.json
+E:\dokumenti\Web programiranje kursevi i ostalo\C#\Projekti u toku\SportsGoods\SportsGoods\SportsGoods\bin\Debug\netcoreapp2.0\SportsGoods.runtimeconfig.dev.json
+E:\dokumenti\Web programiranje kursevi i ostalo\C#\Projekti u toku\SportsGoods\SportsGoods\SportsGoods\bin\Debug\netcoreapp2.0\SportsGoods.dll
+E:\dokumenti\Web programiranje kursevi i ostalo\C#\Projekti u toku\SportsGoods\SportsGoods\SportsGoods\bin\Debug\netcoreapp2.0\SportsGoods.pdb
+E:\dokumenti\Web programiranje kursevi i ostalo\C#\Projekti u toku\SportsGoods\SportsGoods\SportsGoods\obj\Debug\netcoreapp2.0\SportsGoods.csprojAssemblyReference.cache
+E:\dokumenti\Web programiranje kursevi i ostalo\C#\Projekti u toku\SportsGoods\SportsGoods\SportsGoods\obj\Debug\netcoreapp2.0\SportsGoods.AssemblyInfoInputs.cache
+E:\dokumenti\Web programiranje kursevi i ostalo\C#\Projekti u toku\SportsGoods\SportsGoods\SportsGoods\obj\Debug\netcoreapp2.0\SportsGoods.AssemblyInfo.cs
+E:\dokumenti\Web programiranje kursevi i ostalo\C#\Projekti u toku\SportsGoods\SportsGoods\SportsGoods\obj\Debug\netcoreapp2.0\SportsGoods.csproj.CoreCompileInputs.cache
+E:\dokumenti\Web programiranje kursevi i ostalo\C#\Projekti u toku\SportsGoods\SportsGoods\SportsGoods\obj\Debug\netcoreapp2.0\SportsGoods.dll
+E:\dokumenti\Web programiranje kursevi i ostalo\C#\Projekti u toku\SportsGoods\SportsGoods\SportsGoods\obj\Debug\netcoreapp2.0\SportsGoods.pdb
+E:\dokumenti\Web programiranje kursevi i ostalo\C#\Projekti u toku\SportsGoods\SportsGoods\SportsGoods\obj\Debug\netcoreapp2.0\SportsGoods.genruntimeconfig.cache
