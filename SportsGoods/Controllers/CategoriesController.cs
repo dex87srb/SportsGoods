@@ -4,7 +4,7 @@ namespace SportsGoods.Controllers
 {
     public class CategoriesController : Controller
     {
-        private ICategoryRepository repository;
+        private readonly ICategoryRepository repository;
 
         public CategoriesController(ICategoryRepository repo) => repository = repo;
         public IActionResult Index() => View(repository.Categories);

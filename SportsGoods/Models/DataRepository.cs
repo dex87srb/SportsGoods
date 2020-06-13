@@ -5,13 +5,12 @@ using Microsoft.EntityFrameworkCore;
 namespace SportsGoods.Models
 {
     public class DataRepository : IRepository
-    {    //kada je u Listu stored onda preko AddSingleton kreira se jedan objekat(objekti koji su isti) kad se resolvuje dependency u IRepository
-        //private List<Product> data = new List<Product>(); // equals to public IEnumerable<Product> Products { get { return data; } }
+    {    
         private readonly DataContext context;
-        public DataRepository(DataContext ctx) => context = ctx; // DataContext object is passed via DataRepository constructor, koji ce biti provided during dependency injection at runtime
-        public IEnumerable<Product> Products => context.Products.Include(p => p.Category).ToArray(); //to include related category object in the query made by product repository
-        public Product GetProduct(long key) => context.Products.Include(p => p.Category).First(p => p.Id == key); //provide a single Product object using its primary key value
-        public void AddProduct(Product product) // Add method accepts product objects through DbSet<Product> property
+        public DataRepository(DataContext ctx) => context = ctx; 
+        public IEnumerable<Product> Products => context.Products.Include(p => p.Category).ToArray(); 
+        public Product GetProduct(long key) => context.Products.Include(p => p.Category).First(p => p.Id == key); 
+        public void AddProduct(Product product) 
         {
             context.Products.Add(product);
             context.SaveChanges();
@@ -27,10 +26,8 @@ namespace SportsGoods.Models
             context.SaveChanges();
         }
 
-        public void UpdateAll(Product[] products) //for updating only changed values
+        public void UpdateAll(Product[] products) 
         {
-
-            // context.Products.UpdateRange(products);
 
             Dictionary<long, Product> data = products.ToDictionary(p => p.Id);
             IEnumerable<Product> baseline =
@@ -38,7 +35,7 @@ namespace SportsGoods.Models
 
             foreach (Product databaseProduct in baseline)//enumerated every query object from the request objects
             {
-                Product requestProduct = data[databaseProduct.Id]; //indexer
+                Product requestProduct = data[databaseProduct.Id]; 
                 databaseProduct.Name = requestProduct.Name;
                 databaseProduct.Category = requestProduct.Category;
                 databaseProduct.PurchasePrice = requestProduct.PurchasePrice;

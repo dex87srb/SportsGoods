@@ -1,5 +1,4 @@
 E:\dokumenti\Web programiranje kursevi i ostalo\C#\Projekti u toku\SportsGoods\SportsGoods\SportsGoods\bin\Debug\netcoreapp2.0\appsettings.json
-E:\dokumenti\Web programiranje kursevi i ostalo\C#\Projekti u toku\SportsGoods\SportsGoods\SportsGoods\bin\Debug\netcoreapp2.0\bower.json
 E:\dokumenti\Web programiranje kursevi i ostalo\C#\Projekti u toku\SportsGoods\SportsGoods\SportsGoods\bin\Debug\netcoreapp2.0\Properties\launchSettings.json
 E:\dokumenti\Web programiranje kursevi i ostalo\C#\Projekti u toku\SportsGoods\SportsGoods\SportsGoods\bin\Debug\netcoreapp2.0\SportsGoods.deps.json
 E:\dokumenti\Web programiranje kursevi i ostalo\C#\Projekti u toku\SportsGoods\SportsGoods\SportsGoods\bin\Debug\netcoreapp2.0\SportsGoods.runtimeconfig.json

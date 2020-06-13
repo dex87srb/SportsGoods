@@ -13752,11 +13752,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\dokumenti\\Web programiranje kursevi i ostalo\\C#\\projekti\\SportsGoods\\SportsGoods\\SportsGoods\\SportsGoods.csproj",
+      "projectUniqueName": "E:\\dokumenti\\Web programiranje kursevi i ostalo\\C#\\Projekti u toku\\SportsGoods\\SportsGoods\\SportsGoods\\SportsGoods.csproj",
       "projectName": "SportsGoods",
-      "projectPath": "E:\\dokumenti\\Web programiranje kursevi i ostalo\\C#\\projekti\\SportsGoods\\SportsGoods\\SportsGoods\\SportsGoods.csproj",
+      "projectPath": "E:\\dokumenti\\Web programiranje kursevi i ostalo\\C#\\Projekti u toku\\SportsGoods\\SportsGoods\\SportsGoods\\SportsGoods.csproj",
       "packagesPath": "C:\\Users\\Danijel\\.nuget\\packages\\",
-      "outputPath": "E:\\dokumenti\\Web programiranje kursevi i ostalo\\C#\\projekti\\SportsGoods\\SportsGoods\\SportsGoods\\obj\\",
+      "outputPath": "E:\\dokumenti\\Web programiranje kursevi i ostalo\\C#\\Projekti u toku\\SportsGoods\\SportsGoods\\SportsGoods\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
