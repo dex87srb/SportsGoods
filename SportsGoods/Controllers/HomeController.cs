@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using SportsGoods.Models;
+using SportsGoods.Models.Pages;
+
 namespace SportsGoods.Controllers
 {
     public class HomeController : Controller
@@ -12,9 +14,9 @@ namespace SportsGoods.Controllers
             repository = repo;
             catRepository = catRepo;
         }
-        public IActionResult Index()
+        public IActionResult Index(QueryOptions options)   //accepts arguments required to select a page
         {
-            return View(repository.Products);
+            return View(repository.GetProducts(options));
         }
         public IActionResult UpdateProduct(long key)
         {
