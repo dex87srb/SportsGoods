@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using Microsoft.EntityFrameworkCore;
+using SportsGoods.Models.Pages;
 
 namespace SportsGoods.Models
 {
@@ -8,7 +9,12 @@ namespace SportsGoods.Models
     {    
         private readonly DataContext context;
         public DataRepository(DataContext ctx) => context = ctx; 
-        public IEnumerable<Product> Products => context.Products.Include(p => p.Category).ToArray(); 
+        public IEnumerable<Product> Products => context.Products.Include(p => p.Category).ToArray();
+
+        public PagedList<Product> GetProducts(QueryOptions options)
+        {
+            return new PagedList<Product>(context.Products.Include(p => p.Category), options);
+        }
         public Product GetProduct(long key) => context.Products.Include(p => p.Category).First(p => p.Id == key); 
         public void AddProduct(Product product) 
         {
@@ -43,9 +49,9 @@ namespace SportsGoods.Models
             }
             context.SaveChanges();
         }
-
+      
         public void Delete(Product product)
-        {
+        {           
             context.Products.Remove(product);
             context.SaveChanges();
         }

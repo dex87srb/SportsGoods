@@ -1,0 +1,57 @@
+﻿.body-content {
+    padding: 0;
+}
+
+body {
+    padding: 0px;
+}
+
+.container {
+    box-shadow: 0 0 10px rgba(25, 17, 17, 0.5);
+}
+
+.panel-i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 250px auto;
+}
+
+.modal-body {
+    display: flex;
+    justify-content: center;
+    background: #6465a5;
+    height: auto;
+    width: 400px;
+    padding: 50px;
+    border-style: none;
+    color: #0c0c0c;
+    box-shadow: 0 0 10px rgba(25, 17, 17, 0.5);
+}
+
+@media screen and (max-width: 640px) {
+
+    .modal-body {
+        width: 100%;
+    }
+}
+
+
+.btn {
+    margin-top: 10px;
+    width: 100px;
+}
+
+th {
+    text-align: center;
+}
+
+.input-md {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+#LogOut {
+    margin-left: 30px;
+}

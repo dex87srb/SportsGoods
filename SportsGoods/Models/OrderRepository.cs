@@ -8,7 +8,7 @@ namespace SportsGoods.Models
 {
     public class OrdersRepository: IOrdersRepository
     {
-        private DataContext context;
+        private readonly DataContext context;
 
         public OrdersRepository(DataContext ctx) => context = ctx;
 
